@@ -1,0 +1,48 @@
+html {
+    background: #100a1c;
+    background-image:
+      radial-gradient(50% 30% ellipse at center top, #201e40 0%, rgba(0,0,0,0) 100%),
+      radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
+    background-attachment: fixed;
+    color: #6cacc5;
+  }
+  button {
+    color: var(--color);
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+  }
+  button:hover, button:focus {
+    border-color: var(--hover);
+    color: #fff;
+  }
+  button {
+    background: none;
+    width: 400px;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+  }
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  -webkit-transform: translateY(-0.25em);
+          transform: translateY(-0.25em);
+}
+.raise {
+    --color: #ffa260;
+    --hover: #e5ff60;
+  }
+
+body {
+    height: 90vh;
+    width: 90vw;
+}
+  .container {
+    display: flex;
+    margin-top: 30vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
