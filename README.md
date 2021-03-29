@@ -36,6 +36,7 @@ Download repo and open index.html with browser of choice
 ## Usage
 
 Open index.html with browser of choice
+https://gfortunecpt.github.io/calculators/
 
 
 <!-- CONTRIBUTING -->
